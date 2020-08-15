@@ -1,0 +1,364 @@
+/* UMUM */
+:root {
+    --green: #62BA46;
+    --dark-green: #215132;
+    --yellow: #FFE200;
+    --red: #FF0000;
+    --black: #000000;
+    --dark-grey: #939393;
+    --grey: #979797;
+    --grey2: #D8D8D8;
+    --light-grey: #E7E5E5;
+    --white: #FFFFFF;
+    --thin-white: #FFFDFD;
+    --bone: #FAFAFA;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+html, body, 
+ul, ol, li
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.container {
+    padding: 0 40px;
+}
+/* Header */
+.logo {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 35px 0;
+}
+.logo #lek {
+    color: var(--dark-green);
+}
+.logo #sayur {
+    color: var(--green);
+}
+/* menu bar */
+.menu-bar {
+    background-color: var(--green);
+    height: 60px;
+    text-align: center;
+}
+.menu-bar nav {
+    width: 400px;
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+.menu-bar nav a{
+    flex: 25%;
+    line-height: 60px;
+    padding: 0 5px;
+    color: var(--white);
+}
+.menu-bar nav a:last-child {
+    flex: 50%;
+}
+.menu-bar a:hover{
+    background-color: rgba(33, 81, 50, 0.3);
+}
+#keranjang {
+    float: right;
+    line-height: 60px;
+    width: 50px;
+}
+#keranjang img {
+    filter: invert(99%) sepia(97%) saturate(10%) hue-rotate(347deg) brightness(106%) contrast(100%);
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+/* Top-wrapper */
+.top-wrapper .container {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.top-wrapper img{
+    width: 100%;
+}
+/* slider */
+.slidesContainer {
+    text-align: center;
+    height: 420px;
+}
+.mySlides {
+    display: block;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    opacity: 0.1;
+}
+/* Next Button on the Right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+}
+/* Hovering Navigation */
+.prev:hover, .next:hover {
+  background-color: var(--light-grey);
+  opacity: 0.6;
+}
+/* The Dots/Bullets/Indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width:100%;
+  opacity: 1;
+}
+.fade-enter,
+.fade-leave-to {
+  visibility: hidden;
+  width:100%;
+  opacity: 0;
+}
+/* search-box */
+.search-box {
+    text-align: center;
+    width: auto;
+    margin: 20px auto;
+}
+#search-box {
+    display: inline;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--dark-grey);
+}
+.search-box input {
+    width: 900px;
+    border: none;
+    font-size: 18px;
+}
+.search-box input:focus {
+    outline: none;
+}
+.search-box button {
+    width: 23px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+/* sayur wrapper */
+.veg-wrapper h3{
+    background-color: var(--dark-green);
+    color: white;
+    text-align: center;
+    width: 200px;
+    line-height: 40px;
+    position: relative;
+    top: 20px;
+    border-radius: 0 20px 20px 0;
+}
+.veg-wrapper .container {
+    padding: 15px 40px;
+    background-color: var(--thin-white);
+    border: thin solid var(--light-grey);
+    text-align: center;
+}
+.veg-cards {
+    padding: 20px;
+}
+#veg-card {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    border: thin solid var(--grey2);
+    background-color: var(--thin-white);
+}
+li{
+    list-style-type: none
+}
+#veg-card:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#veg-card img {
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+#veg-card p{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+    color: var(--black);
+}
+#veg-card #id-1 {
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#veg-card #str-through{
+    text-decoration: line-through;
+    color: var(--grey);
+}
+#veg-card #id-2 {
+    text-align: left;
+    padding: 5px 0;
+    color: var(--red);
+}
+#veg-card #id-3 {
+    text-align: right;
+    font-size: 14px;
+}
+#veg-card #id-3 img {
+    height: 10px;
+    width: 58px;
+}
+#veg-card #id-4 {
+    display: inline-flex;
+    color: var(--grey);
+}
+#veg-card #id-4 i {
+    height: 20px;
+    text-align: right;
+}
+.txt-content {
+    padding: 5px;
+}
+/* fruits-wrapper */
+.fruits-wrapper h3{
+    background-color: var(--dark-green);
+    color: white;
+    text-align: center;
+    width: 200px;
+    line-height: 40px;
+    position: relative;
+    top: 20px;
+    border-radius: 0 20px 20px 0;
+}
+.fruits-wrapper .container {
+    padding: 15px 40px;
+    text-align: center;
+    background-color: var(--thin-white);
+    border: thin solid var(--light-grey);
+    margin-bottom: 100px; 
+}
+.fruits-cards {
+    padding: 20px;
+    width: 100%;
+}
+#fruits-card {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: thin solid var(--grey2);
+    background-color: var(--thin-white);
+}
+#fruits-card:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#fruits-card img {
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+#fruits-card p{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+    color: var(--black);
+}
+.fruits-cards #id-3 img {
+    height: 10px;
+    width: 58px;
+}
+#fruits-card #id-1 {
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#fruits-card #str-through{
+    text-decoration: line-through;
+    color: var(--grey);
+}
+#fruits-card #id-2 {
+    text-align: left;
+    padding: 5px 0;
+    color: var(--red);
+}
+#fruits-card #id-3 {
+    text-align: right;
+    font-size: 14px;
+}
+#fruits-card #id-3 img {
+    height: 10px;
+    width: 58px;
+}
+#fruits-card #id-4 {
+    display: inline-flex;
+    color: var(--grey);
+}
+#fruits-card #id-4 i {
+    height: 20px;
+    text-align: right;
+}
+/* FOOTER */
+footer {
+    background-color: var(--dark-green);
+    color: var(--white);
+    font-size: 22px;
+    font-weight: normal;
+}
+.footer-left {
+    padding: 25px 0;
+}
+.footer-left p {
+    margin: 5px 0;
+}
+.footer-left p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0;
+}
