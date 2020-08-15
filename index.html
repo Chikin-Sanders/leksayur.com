@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>LekSayur.com</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--    =============================== HEADER ======================================= -->
+    <header>
+        <!-- lOGO -->
+        <div class="logo">
+            <a href="#"><span id="lek">Lek</span><span id="sayur">Sayur</span><span id="lek">.com</span></a>
+        </div>
+        <!-- MENU BAR -->
+        <div class="menu-bar">
+            <!-- CONTAINER -->
+            <div class="container">
+                <nav>
+                    <a href="#">Belanja</a>
+                    <a href="#">Resep</a>
+                    <a href="#">Konsultasi Gizi</a>
+                </nav>
+                <a href="#" id="keranjang"><img src="/img/New Folder With Items/shopping-cart.svg"></a>
+            </div>
+        </div>
+    </header>
+    <!--    =========================== SLIDER & FINDER ======================================= -->
+    <div class="top-wrapper">
+        <!-- CONTAINER -->
+        <div class="container">
+            <!-- SLIDER -->
+            <div class="slidesContainer">
+                <transition name="fade" tag="div">
+                    <div class="mySlides fade" v-for="i in [slidesIndex]" v-bind:key="i">
+                        <img v-bind:src="currentImg">
+                    </div>
+                </transition>
+                <!-- NEXT & Previous-->
+                <a class="prev" v-on:click="subsSlides">&#10094</a>
+                <a class="next" v-on:click="plusSlides">&#10095</a>
+            </div>
+            <!-- PENCARIAN -->
+            <div class="search-box">
+                <form action="#" id="search-box">
+                    <input type="text" placeholder="Cari">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--    =========================== SAYUR WRAPPER ======================================= -->
+    <div class="veg-wrapper">
+        <h3>Sayur Terlaris</h3>
+        <!-- CONTAINER -->
+        <div class="container">
+            <!-- SAYUR CARD-->
+            <div class="veg-cards">
+                <ul>
+                    <li id="veg-card" v-for="sayur in daftarSayuran">
+                        <!-- SAYUR-IMAGE -->
+                        <img :src="sayur.images">
+                        <!-- CONTENT -->
+                        <div class="txt-content">
+                            <p id="id-1">{{sayur.nama}} / {{sayur.satuan}}</p>
+                            <p id="id-2"><span id="str-through"> {{sayur.hargaAwal}}</span> {{sayur.hargaBaru}}</p>
+                            <p id="id-3">
+                                <img :src="sayur.rating"> {{sayur.jmlTerjual}} Terjual
+                            </p>
+                            <p id="id-4">
+                                <i class="fa fa-map-marker"></i>
+                                <span>{{sayur.kota}}, {{sayur.provinsi}}</span>
+                            <p>
+                        </div>
+                    </li>
+                </ul>
+                    
+            </div>
+        </div>
+    </div>
+    <!--    =========================== BUAH WRAPPER ======================================= -->
+    <div class="fruits-wrapper">
+        <h3>Buah Terlaris</h3>
+        <!-- CONTAINER -->
+        <div class="container">
+            <!-- BUAH CARD-->
+            <div class="fruits-cards">
+                <ul>
+                    <li id="fruits-card" v-for="buah in daftarBuah">
+                        <!-- BUAH-IMAGE -->
+                        <img :src="buah.images">
+                        <!-- CONTENT -->
+                        <div class="txt-content">
+                            <p id="id-1">{{buah.nama}} / {{buah.satuan}}</p>
+                            <p id="id-2"><span id="str-through"> {{buah.hargaAwal}}</span>  {{buah.hargaBaru}}</p>
+                            <p id="id-3">
+                                <img :src="buah.rating"> {{buah.jmlTerjual}} Terjual
+                            </p>
+                            <p id="id-4">
+                                <i class="fa fa-map-marker"></i>
+                                <span>{{buah.kota}}, {{buah.provinsi}}</span>
+                            <p>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" >
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--    =============================== FOOTER ======================================= -->
+    <footer>
+        <!-- CONTAINER -->
+        <div class="container">
+            <!-- CONTACT -->
+            <div class="footer-left">
+                <p>Kontak</p>
+                <p>088817081945</p>
+                <p>leksayur@gmail.com</p>
+                <P>Sleman, Yogyakarta, Indonesia</P>
+            </div>
+        </div>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
