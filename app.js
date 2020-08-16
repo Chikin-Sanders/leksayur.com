@@ -40,7 +40,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Cabai Rawit.png)',
                 hargaAwal: 'Rp. 10.000',
                 hargaBaru: 'Rp. 5.000',
-                rating: '/img/4-rating.png',
+                rating: '![](/img/4-rating.png)',
                 jmlTerjual: '600',
                 kota: 'Gunung Kidul',
                 provinsi: 'DIY'
@@ -51,7 +51,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Cabai Hijau.png)',
                 hargaAwal: 'Rp. 8.500',
                 hargaBaru: 'Rp. 4.000',
-                rating:'/img/4-rating.png',
+                rating:'![](/img/4-rating.png)',
                 jmlTerjual: '560',
                 kota: 'Kulon Progo',
                 provinsi: 'DIY'
@@ -62,7 +62,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Bawang Bombay.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 2.500',
-                rating: '/img/3-rating.png',
+                rating: '![](/img/3-rating.png)',
                 jmlTerjual: '700',
                 kota: 'Sleman',
                 provinsi: 'DIY'
@@ -73,7 +73,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Selada.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 4.500',
-                rating: '/img/3-rating.png',
+                rating: '![](/img/3-rating.png)![](',
                 jmlTerjual: '300',
                 kota: 'Sleman',
                 provinsi: 'DIY'
@@ -84,7 +84,7 @@ new Vue ({
                 images:'![](/img/Vegetables/Cabai Merah.jpg)',
                 hargaAwal: 'Rp. 25.000',
                 hargaBaru: 'Rp. 20.000',
-                rating: '/img/4-rating.png',
+                rating: '![](/img/4-rating.png)',
                 jmlTerjual:'1000',
                 kota: 'Klaten',
                 provinsi:'Jawa Tengah'
@@ -95,7 +95,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Buncis.jpg)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 15.000',
-                rating: '/img/3-rating.png',
+                rating: '![](/img/3-rating.png)',
                 jmlTerjual: '900',
                 kota: 'Kulon Progo',
                 provinsi: 'DIY'
@@ -106,7 +106,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Bawang Merah.jpg)',
                 hargaAwal: 'Rp. 20.000',
                 hargaBaru: 'Rp. 18.000',
-                rating: '/img/4-rating.png',
+                rating: '![](/img/4-rating.png)',
                 jmlTerjual: '900',
                 kota: 'Bantul',
                 provinsi: 'DIY'
@@ -117,7 +117,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Sawi.jpg)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 17.000',
-                rating: '/img/4-rating.png',
+                rating: '![](/img/4-rating.png)',
                 jmlTerjual: '400',
                 kota: 'Klaten',
                 provinsi: 'Jawa Tengah'
@@ -136,7 +136,7 @@ new Vue({
                 images: '![](/img/Fruits/Jeruk.png)',
                 hargaAwal: 'Rp. 35.000',
                 hargaBaru: 'Rp. 28.000',
-                rating: '/img/4-rating.png',
+                rating: '![](/img/4-rating.png)',
                 jmlTerjual: '560',
                 kota: 'Kulon Progo',
                 provinsi: 'DIY'
@@ -147,7 +147,7 @@ new Vue({
                 images: '![](/img/Fruits/Anggur.png)',
                 hargaAwal: 'Rp. 50.00',
                 hargaBaru: 'Rp. 35.000',
-                rating: '/img/4-rating.png',
+                rating: '![](/img/4-rating.png)',
                 jmlTerjual: '600',
                 kota: 'Gunung Kidul',
                 provinsi: 'DIY'
@@ -158,7 +158,7 @@ new Vue({
                 images: '![](/img/Fruits/Pisang.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 2.400',
-                rating: '/img/3-rating.png',
+                rating: '![](/img/3-rating.png)',
                 jmlTerjual: '300',
                 kota: 'Sleman',
                 provinsi: 'DIY'
@@ -169,7 +169,7 @@ new Vue({
                 images: '![](/img/Fruits/Apel.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 40.500',
-                rating: '/img/3-rating.png',
+                rating: '![](/img/3-rating.png)',
                 jmlTerjual: '700',
                 kota: 'Sleman',
                 provinsi: 'DIY'
