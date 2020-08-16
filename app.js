@@ -73,7 +73,7 @@ new Vue ({
                 images: '![](/img/Vegetables/Selada.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 4.500',
-                rating: '![](/img/3-rating.png)![](',
+                rating: '![](/img/3-rating.png)',
                 jmlTerjual: '300',
                 kota: 'Sleman',
                 provinsi: 'DIY'
