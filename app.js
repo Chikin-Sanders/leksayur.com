@@ -37,7 +37,7 @@ new Vue ({
             {
                 nama: 'Cabai Rawit',
                 satuan: 'kg',
-                images: '![](/img/vegetables/Cabai Rawit.png)',
+                images: '![](/img/Vegetables/Cabai Rawit.png)',
                 hargaAwal: 'Rp. 10.000',
                 hargaBaru: 'Rp. 5.000',
                 rating: '/img/4-rating.png',
@@ -48,7 +48,7 @@ new Vue ({
             {
                 nama: 'Cabai Hijau',
                 satuan: 'kg',
-                images: '![](/img/vegetables/Cabai Hijau.png)',
+                images: '![](/img/Vegetables/Cabai Hijau.png)',
                 hargaAwal: 'Rp. 8.500',
                 hargaBaru: 'Rp. 4.000',
                 rating:'/img/4-rating.png',
@@ -59,7 +59,7 @@ new Vue ({
             {
                 nama: 'Bombay',
                 satuan: '100 gram',
-                images: '![](/img/vegetables/Bawang Bombay.png)',
+                images: '![](/img/Vegetables/Bawang Bombay.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 2.500',
                 rating: '/img/3-rating.png',
@@ -70,7 +70,7 @@ new Vue ({
             {
                 nama: 'Selada',
                 satuan: 'Ikat',
-                images: '![](/img/vegetables/Selada.png)',
+                images: '![](/img/Vegetables/Selada.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 4.500',
                 rating: '/img/3-rating.png',
@@ -81,7 +81,7 @@ new Vue ({
             {
                 nama:'Cabai Merah',
                 satuan:'kg',
-                images:'![](/img/vegetables/Cabai Merah.jpg)',
+                images:'![](/img/Vegetables/Cabai Merah.jpg)',
                 hargaAwal: 'Rp. 25.000',
                 hargaBaru: 'Rp. 20.000',
                 rating: '/img/4-rating.png',
@@ -92,7 +92,7 @@ new Vue ({
             {
                 nama: 'Buncis',
                 satuan: 'kg',
-                images: '![](/img/vegetables/Buncis.jpg)',
+                images: '![](/img/Vegetables/Buncis.jpg)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 15.000',
                 rating: '/img/3-rating.png',
@@ -103,7 +103,7 @@ new Vue ({
             {
                 nama: 'Bawang Merah',
                 satuan: 'kg',
-                images: '![](/img/vegetables/Bawang Merah.jpg)',
+                images: '![](/img/Vegetables/Bawang Merah.jpg)',
                 hargaAwal: 'Rp. 20.000',
                 hargaBaru: 'Rp. 18.000',
                 rating: '/img/4-rating.png',
@@ -114,7 +114,7 @@ new Vue ({
             {
                 nama: 'Sawi',
                 satuan: 'kg',
-                images: '![](/img/vegetables/Sawi.jpg)',
+                images: '![](/img/Vegetables/Sawi.jpg)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 17.000',
                 rating: '/img/4-rating.png',
@@ -133,7 +133,7 @@ new Vue({
             {
                 nama: 'Jeruk',
                 satuan: 'kg',
-                images: '![](/img/fruits/Jeruk.png)',
+                images: '![](/img/Fruits/Jeruk.png)',
                 hargaAwal: 'Rp. 35.000',
                 hargaBaru: 'Rp. 28.000',
                 rating: '/img/4-rating.png',
@@ -144,7 +144,7 @@ new Vue({
             {
                 nama: 'Anggur',
                 satuan: 'kg',
-                images: '![](/img/fruits/Anggur.png)',
+                images: '![](/img/Fruits/Anggur.png)',
                 hargaAwal: 'Rp. 50.00',
                 hargaBaru: 'Rp. 35.000',
                 rating: '/img/4-rating.png',
@@ -155,7 +155,7 @@ new Vue({
             {
                 nama: 'Pisang',
                 satuan: '100 gram',
-                images: '![](/img/fruits/Pisang.png)',
+                images: '![](/img/Fruits/Pisang.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 2.400',
                 rating: '/img/3-rating.png',
@@ -166,7 +166,7 @@ new Vue({
             {
                 nama: 'Apel',
                 satuan: 'kg',
-                images: '![](/img/fruits/Apel.png)',
+                images: '![](/img/Fruits/Apel.png)',
                 hargaAwal: '',
                 hargaBaru: 'Rp. 40.500',
                 rating: '/img/3-rating.png',
