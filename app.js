@@ -3,8 +3,8 @@ new Vue ({
     data() {
         return {
             images: [
-                './img/banner-1.png',
-                './img/banner-2.png'
+                'https://github.com/Chikin-Sanders/leksayur.com/blob/master/img/banner-1.png',
+                'https://github.com/Chikin-Sanders/leksayur.com/blob/master/img/banner-2.png'
             ],
             slidesIndex: 0,
             timer: null,
