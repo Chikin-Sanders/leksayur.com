@@ -3,8 +3,8 @@ new Vue ({
     data() {
         return {
             images: [
-                '![](img/banner-1.png)',
-                '![](img/banner-2.png)'
+                'img/banner-1.png',
+                'img/banner-2.png'
             ],
             slidesIndex: 0,
             timer: null,
