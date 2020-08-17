@@ -3,7 +3,7 @@ new Vue ({
     data() {
         return {
             images: [
-                'img/banner-1.png',
+                'https://raw.githubusercontent.com/Chikin-Sanders/leksayur.com/master/img/banner-1.png',
                 'img/banner-2.png'
             ],
             slidesIndex: 0,
